@@ -34,3 +34,5 @@ We often see 16-digit credit card numbers today, but it’s possible to issue a 
 In my banking system, the customer account number can be any, but it should be unique. And the whole card number is 16-digit length.
 
 The very last digit of a credit card is the **check digit** or **checksum**. It is used to validate the credit card number using the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+
+The main goal of this little project wasn\`t create super secure banking system, but to practice with Python3 and SQL (specifically [sqlite3](https://www.sqlite.org/index.html)).
